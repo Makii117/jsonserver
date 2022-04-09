@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Mahmut",
+      "surname": "Besirevic",
+      "username": "mbesirevic",
+      "adressa": "Whoami Street 1",
+      "password": "MTIzNDU2",
+      "roleId": 2,
+      "preferedContactMethodId": 1
+    },
+    {
+      "id": 2,
+      "name": "Matej",
+      "surname": "Mujezinovic",
+      "username": "mmujezinovic",
+      "adressa": "Whoami Street 2",
+      "password": "MTIzNDU2",
+      "roleId": 2,
+      "preferedContactMethodId": 2
+    },
+    {
+      "id": 3,
+      "name": "Asim",
+      "surname": "Veledarevic",
+      "username": "aveledarevic",
+      "adressa": "Whoami Street 3",
+      "password": "MTIzNDU2",
+      "roleId": 1,
+      "preferedContactMethodId": 3
+    }
+  ],
+  "roles": [
+    { "id": 1, "name": "Government" },
+    { "id": 2, "name": "Citizen" }
+  ],
+  "parkings": [
+    { "lat": 1234, "lng": 1234, "allSpots": 10, "openSpots": 4 },
+    { "lat": 1234, "lng": 1234, "allSpots": 11, "openSpots": 5 },
+    { "lat": 1234, "lng": 1234, "allSpots": 12, "openSpots": 0 }
+  ],
+  "contactMethods": [
+    { "id": 1, "name": "viber" },
+    { "id": 2, "name": "whatsapp" },
+    { "id": 3, "name": "telegram" }
+  ],
+  "intersection": [
+    { "id": 1, "place": "Otoka", "lat": 1234, "long": 422 },
+    { "id": 2, "place": "Malta", "lat": 1234, "long": 422 },
+    { "id": 3, "place": "Socijalno", "lat": 1234, "long": 422 }
+  ],
+  "semaphores": [
+    { "id": 1, "intersectionId": 1, "lat": 1234, "long": 422, "state": "G", "semaphoreId": 2 },
+    { "id": 2, "intersectionId": 2, "lat": 1234, "long": 422, "state": "R", "semaphoreId": null },
+    { "id": 3, "intersectionId": 3, "lat": 1234, "long": 422, "state": "Y", "semaphoreId": 1 },
+    { "id": 4, "intersectionId": 4, "lat": 1234, "long": 422, "state": "G", "semaphoreId": 2 }
+  ],
+  "trafficData": [
+    {
+      "id": 1,
+      "intersectionId": 1,
+      "capturedAt": 21321312321,
+      "troughput": 0.1
+    },
+    {
+      "id": 1,
+      "intersectionId": 2,
+      "capturedAt": 21321312321,
+      "troughput": 0.1
+    },
+    {
+      "id": 1,
+      "intersectionId": 3,
+      "capturedAt": 21321312321,
+      "troughput": 0.7
+    }
+  ]
+}
